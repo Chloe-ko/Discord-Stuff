@@ -1,4 +1,4 @@
-/*//META{"name":"hoverMemberlist","description":"Hides member list when not hovered.","author":"Chloesviel","version":"1.0"}*//**/
+/*//META{"name":"hoverMemberlist","description":"Hides member list when not hovered.","author":"Chloesviel","version":"1.1"}*//**/
 :root {
 	--hover-animation-speed: .35s;
 }
@@ -21,7 +21,7 @@ DIV[class*="memberInner"] {
 DIV[class*="membersWrap"]:hover DIV[class*="memberInner"] {
 	opacity: 100;
 }
-DIV[class*="avatar-"][class*="small-"] {
+DIV[class*="membersWrap"] DIV[class*="avatar-"][class*="small-"] {
 	left: 20px;
 	transition: left var(--hover-animation-speed);
 }
