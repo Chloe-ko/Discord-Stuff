@@ -1,9 +1,16 @@
-/*//META{"name":"hoverMemberlist","description":"Hides member list when not hovered.","author":"Chloesviel","version":"1.2"}*//**/
+/*//META{"name":"Minified Memberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.3"}*//**/
+
+/*User changeable settings*/
+
 :root {
 	--hover-animation-speed: .35s;
+	--seperator-color: #707e81;
 }
+
+/*Don't change anything below this*/
+
 DIV[class*="membersWrap-"] {
-	width: 80px;
+	width: 60px;
 	min-width: unset;
 }
 DIV[class*="membersWrap-"] DIV[class*="scrollerWrap-"] {
@@ -11,7 +18,7 @@ DIV[class*="membersWrap-"] DIV[class*="scrollerWrap-"] {
 	transition: transform var(--hover-animation-speed), background var(--hover-animation-speed);
 }
 DIV[class*="membersWrap-"]:hover DIV[class*="scrollerWrap-"] {
-	transform: translateX(-160px);
+	transform: translateX(-180px);
 	background: rgba(0, 0, 0, .2);
 }
 DIV[class*="membersWrap-"] DIV[class*="memberInner-"] {
@@ -21,17 +28,23 @@ DIV[class*="membersWrap-"] DIV[class*="memberInner-"] {
 DIV[class*="membersWrap-"]:hover DIV[class*="memberInner-"] {
 	opacity: 100;
 }
-DIV[class*="membersWrap-"] DIV[class*="avatar-"][class*="small-"] {
-	left: 20px;
-	transition: left var(--hover-animation-speed);
-}
-DIV[class*="membersWrap-"]:hover DIV[class*="avatar-"][class*="small-"] {
-	left: 0;
-}
 DIV[class*="membersWrap-"] DIV[class*="membersGroup-"] {
-	font-size: 11px;
 	transition: font-size var(--hover-animation-speed);
+	cursor: default;
+	transform: translateX(45px);
+	transition: transform var(--hover-animation-speed);
+	overflow: visible;
 }
 DIV[class*="membersWrap-"]:hover DIV[class*="membersGroup-"] {
-	font-size: 12px;
+	transform: translateX(-6px);
+}
+DIV[class*="membersWrap-"] DIV[class*="membersGroup-"]::before {
+	content: "";
+	width: 30px;
+	height: 5px;
+	border-radius: 50px;
+	background-color: var(--seperator-color);
+	position: absolute;
+	left: -29px;
+	top: 28px;
 }
