@@ -1,4 +1,4 @@
-/*//META{"name":"Minified Memberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.4"}*//**/
+/*//META{"name":"Minified Memberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.5"}*//**/
 
 /*User changeable settings*/
 
@@ -40,10 +40,10 @@ DIV[class*="membersWrap-"]:hover DIV[class*="membersGroup-"] {
 DIV[class*="membersWrap-"] DIV[class*="membersGroup-"]::before {
 	content: "";
 	width: 30px;
-	height: 5px;
+	height: 2px;
 	border-radius: 50px;
 	background-color: var(--seperator-color);
 	position: absolute;
 	left: -29px;
-	top: 28px;
+	top: 29px;
 }
