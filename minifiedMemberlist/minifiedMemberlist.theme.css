@@ -1,4 +1,4 @@
-/*//META{"name":"Minified Memberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.3"}*//**/
+/*//META{"name":"Minified Memberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.4"}*//**/
 
 /*User changeable settings*/
 
@@ -29,7 +29,6 @@ DIV[class*="membersWrap-"]:hover DIV[class*="memberInner-"] {
 	opacity: 100;
 }
 DIV[class*="membersWrap-"] DIV[class*="membersGroup-"] {
-	transition: font-size var(--hover-animation-speed);
 	cursor: default;
 	transform: translateX(45px);
 	transition: transform var(--hover-animation-speed);
