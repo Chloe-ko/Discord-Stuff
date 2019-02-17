@@ -1,4 +1,4 @@
-/*//META{"name":"MinifiedMemberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.7"}*//**/
+/*//META{"name":"MinifiedMemberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.8"}*//**/
 
 /*User changeable settings*/
 
@@ -9,39 +9,37 @@
 
 /*Don't change anything below this*/
 
-[class*="membersWrap-"] {
+.da-membersWrap {
 	width: 60px;
 	min-width: unset;
 }
-[class*="membersWrap-"] [class*="scrollerWrap-"],
-[class*="membersWrap-"] [class*="scroller-wrap"] {
-	position: absolute;
+.da-membersWrap .da-scrollerWrap {
+	position: relative;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	transition: transform var(--hover-animation-speed), background var(--hover-animation-speed);
 }
-[class*="membersWrap-"]:hover [class*="scrollerWrap-"],
-[class*="membersWrap-"]:hover [class*="scroller-wrap"] {
+.da-membersWrap:hover .da-scrollerWrap {
 	transform: translateX(-180px);
 	background: rgba(0, 0, 0, .2);
 }
-[class*="membersWrap-"] [class*="memberInner-"] {
+.da-membersWrap .da-memberInner {
 	opacity: 0;
 	transition: opacity var(--hover-animation-speed);
 }
-[class*="membersWrap-"]:hover [class*="memberInner-"] {
+.da-membersWrap:hover .da-memberInner {
 	opacity: 100;
 }
-[class*="membersWrap-"] [class*="membersGroup-"] {
+.da-membersWrap .da-membersGroup {
 	cursor: default;
 	transform: translateX(45px);
 	transition: transform var(--hover-animation-speed);
 	overflow: visible;
 }
-[class*="membersWrap-"]:hover [class*="membersGroup-"] {
+.da-membersWrap:hover .da-membersGroup {
 	transform: translateX(-6px);
 }
-[class*="membersWrap-"] [class*="membersGroup-"]::before {
+.da-membersWrap .da-membersGroup::after {
 	content: "";
 	width: 30px;
 	height: 2px;
