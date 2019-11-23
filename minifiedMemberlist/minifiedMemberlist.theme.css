@@ -15,6 +15,7 @@
 }
 .da-membersWrap .da-scrollerWrap {
 	position: relative;
+	left: 90px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	transition: transform var(--hover-animation-speed), background var(--hover-animation-speed);
