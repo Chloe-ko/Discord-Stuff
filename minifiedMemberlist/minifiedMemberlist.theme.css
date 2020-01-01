@@ -1,4 +1,4 @@
-/*//META{"name":"MinifiedMemberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.8"}*//**/
+/*//META{"name":"MinifiedMemberlist","description":"Minifies the Memberlist in guilds.","author":"Chloesviel","version":"1.9"}*//**/
 
 /*User changeable settings*/
 
@@ -14,8 +14,8 @@
 	min-width: unset;
 }
 .da-membersWrap .da-scrollerWrap {
-	position: relative;
-	left: 90px;
+	position: absolute;
+	left: 0px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	transition: transform var(--hover-animation-speed), background var(--hover-animation-speed);
