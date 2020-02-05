@@ -10,18 +10,19 @@
 /*Don't change anything below this*/
 
 .da-membersWrap {
+	position: relative;
 	width: 60px;
 	min-width: unset;
 }
 .da-membersWrap .da-scrollerWrap {
 	position: absolute;
-	left: 0px;
+	left: -10px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	transition: transform var(--hover-animation-speed), background var(--hover-animation-speed);
 }
 .da-membersWrap:hover .da-scrollerWrap {
-	transform: translateX(-180px);
+	transform: translateX(-187px);
 	background: rgba(0, 0, 0, .2);
 }
 .da-membersWrap .da-memberInner {
@@ -49,4 +50,8 @@
 	position: absolute;
 	left: -29px;
 	top: 29px;
+}
+.membersWrap-2h-GB4 {
+	z-index: 1000;
+	width: 50px;
 }
