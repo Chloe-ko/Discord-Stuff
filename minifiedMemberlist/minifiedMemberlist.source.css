@@ -1,0 +1,46 @@
+.da-content .da-membersWrap {
+	min-width: unset;
+	width: 50px;
+	z-index: 1000;
+	justify-content: right;
+}
+.da-membersWrap .da-members {
+	transition: transform var(--hover-animation-speed), background var(--hover-animation-speed);
+	background: rgba(0, 0, 0, .0);
+}
+.da-membersWrap:hover .da-members {
+	transform: translateX(-190px);
+	background: rgba(0, 0, 0, var(--hover-background-transparency));
+}
+.da-membersWrap .da-membersGroup::after {
+	content:"";
+	width: 30px;
+	height: 2px;
+	border-radius: 50px;
+	background: unset;
+	background-color: var(--seperator-color);
+	position: absolute;
+	left: -36px;
+	top: 29px;
+	margin-left: -2px;
+}
+.da-membersWrap .da-listContent {
+	background-color: unset;
+}
+.da-membersWrap .da-members .da-member {
+	background-color: unset;
+	margin-left: -2px;
+	transition: margin-left var(--hover-animation-speed);
+}
+.da-membersWrap:hover .da-members .da-member {
+	margin-left: 8px;
+}
+.da-membersWrap:hover .da-membersGroup {
+	transform: translateX(-6px);
+}
+.da-membersWrap .da-membersGroup {
+	cursor: default;
+	transform: translateX(45px);
+	transition: transform var(--hover-animation-speed);
+	overflow: visible;
+}
