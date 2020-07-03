@@ -1,4 +1,4 @@
-/*//META{"name":"MinifiedMemberlist","description":"Minifies the Memberlist in guilds and group chats.","author":"Chloe-ko#6669","version":"2.0"}*//**/
+/*//META{"name":"MinifiedMemberlist","description":"Minifies the Memberlist in guilds and group chats.","author":"Chloe-ko#6669","version":"2.1"}*//**/
 
 @import url('https://chloe-ko.github.io/Discord-Stuff/minifiedMemberlist/minifiedMemberlist.source.css');
 
@@ -7,5 +7,4 @@
 :root {
 	--hover-animation-speed: .35s;
 	--seperator-color: #707e81;
-	--hover-background-transparency: .5;
 }
