@@ -5,12 +5,10 @@
 	justify-content: right;
 }
 .da-membersWrap .da-members {
-	transition: transform var(--hover-animation-speed), background var(--hover-animation-speed);
-	background: rgba(0, 0, 0, .0);
+	transition: transform var(--hover-animation-speed);
 }
 .da-membersWrap:hover .da-members {
 	transform: translateX(-190px);
-	background: rgba(0, 0, 0, var(--hover-background-transparency));
 }
 .da-membersWrap .da-membersGroup::after {
 	content:"";
@@ -22,14 +20,14 @@
 	position: absolute;
 	left: -36px;
 	top: 29px;
-	margin-left: -2px;
+	margin-left: 0px;
 }
 .da-membersWrap .da-listContent {
 	background-color: unset;
 }
 .da-membersWrap .da-members .da-member {
 	background-color: unset;
-	margin-left: -2px;
+	margin-left: 0px;
 	transition: margin-left var(--hover-animation-speed);
 }
 .da-membersWrap:hover .da-members .da-member {
