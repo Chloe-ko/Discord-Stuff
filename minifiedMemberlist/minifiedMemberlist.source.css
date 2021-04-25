@@ -1,16 +1,17 @@
-.da-content .da-membersWrap {
+.content-yTz4x3 .membersWrap-2h-GB4 {
 	min-width: unset;
 	width: 50px;
 	z-index: 1000;
 	justify-content: right;
+	flex-basis: unset;
 }
-.da-membersWrap .da-members {
+.membersWrap-2h-GB4 .members-1998pB {
 	transition: transform var(--hover-animation-speed);
 }
-.da-membersWrap:hover .da-members {
+.membersWrap-2h-GB4:hover .members-1998pB {
 	transform: translateX(-190px);
 }
-.da-membersWrap .da-membersGroup::after {
+.membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
 	content:"";
 	width: 30px;
 	height: 2px;
@@ -22,18 +23,18 @@
 	top: 29px;
 	margin-left: 0px;
 }
-.da-membersWrap .da-members .da-member {
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
 	background-color: unset;
 	margin-left: 0px;
 	transition: margin-left var(--hover-animation-speed);
 }
-.da-membersWrap:hover .da-members .da-member {
+.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
 	margin-left: 8px;
 }
-.da-membersWrap:hover .da-membersGroup {
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
 	transform: translateX(-6px);
 }
-.da-membersWrap .da-membersGroup {
+.membersWrap-2h-GB4 .membersGroup-v9BXpm {
 	cursor: default;
 	transform: translateX(45px);
 	transition: transform var(--hover-animation-speed);
