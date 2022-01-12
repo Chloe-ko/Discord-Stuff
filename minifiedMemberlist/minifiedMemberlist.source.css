@@ -1,42 +1,42 @@
-.content-yTz4x3 .membersWrap-2h-GB4 {
-	min-width: unset;
-	width: 50px;
-	z-index: 1000;
-	justify-content: right;
-	flex-basis: unset;
+.content-1jQy2l .membersWrap-3NUR2t {
+        min-width: unset;
+        width: 50px;
+        z-index: 1000;
+        justify-content: right;
+        flex-basis: unset;
 }
-.membersWrap-2h-GB4 .members-1998pB {
-	transition: transform var(--hover-animation-speed);
+.membersWrap-3NUR2t .members-3WRCEx {
+        transition: transform var(--hover-animation-speed);
 }
-.membersWrap-2h-GB4:hover .members-1998pB {
-	transform: translateX(-190px);
+.membersWrap-3NUR2t:hover .members-3WRCEx {
+        transform: translateX(-190px);
 }
-.membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
-	content:"";
-	width: 30px;
-	height: 2px;
-	border-radius: 50px;
-	background: unset;
-	background-color: var(--seperator-color);
-	position: absolute;
-	left: -36px;
-	top: 29px;
-	margin-left: 0px;
+.membersWrap-3NUR2t .membersGroup-2eiWxl::after {
+        content:"";
+        width: 30px;
+        height: 2px;
+        border-radius: 50px;
+        background: unset;
+        background-color: var(--seperator-color);
+        position: absolute;
+        left: -36px;
+        top: 29px;
+        margin-left: 0px;
 }
-.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
-	background-color: unset;
-	margin-left: 0px;
-	transition: margin-left var(--hover-animation-speed);
+.membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar {
+        background-color: unset;
+        margin-left: 0px;
+        transition: margin-left var(--hover-animation-speed);
 }
-.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
-	margin-left: 8px;
+.membersWrap-3NUR2t:hover .members-3WRCEx .member-2gU6Ar {
+        margin-left: 8px;
 }
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-	transform: translateX(-6px);
+.membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
+        transform: translateX(-6px);
 }
-.membersWrap-2h-GB4 .membersGroup-v9BXpm {
-	cursor: default;
-	transform: translateX(45px);
-	transition: transform var(--hover-animation-speed);
-	overflow: visible;
+.membersWrap-3NUR2t .membersGroup-2eiWxl {
+        cursor: default;
+        transform: translateX(45px);
+        transition: transform var(--hover-animation-speed);
+        overflow: visible;
 }
