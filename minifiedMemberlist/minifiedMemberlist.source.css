@@ -7,9 +7,10 @@
 }
 .membersWrap-3NUR2t .members-3WRCEx {
         transition: transform var(--hover-animation-speed);
+        transform: translateX(190px);
 }
 .membersWrap-3NUR2t:hover .members-3WRCEx {
-        transform: translateX(-190px);
+        transform: translateX(0);
 }
 .membersWrap-3NUR2t .membersGroup-2eiWxl::after {
         content:"";
