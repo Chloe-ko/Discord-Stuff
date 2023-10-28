@@ -1,18 +1,18 @@
-.content-1jQy2l .membersWrap-3NUR2t {
+.membersWrap__90226, .container_b2ce9c {
         min-width: unset;
         width: 50px;
         z-index: 1000;
         justify-content: right;
         flex-basis: unset;
 }
-.membersWrap-3NUR2t .members-3WRCEx {
+.membersWrap__90226 .members__9f47b {
         transition: transform var(--hover-animation-speed);
         transform: translateX(190px);
 }
-.membersWrap-3NUR2t:hover .members-3WRCEx {
+.membersWrap__90226:hover .members__9f47b {
         transform: translateX(0);
 }
-.membersWrap-3NUR2t .membersGroup-2eiWxl::after {
+.membersWrap__90226 .membersGroup__85843::after {
         content:"";
         width: 30px;
         height: 2px;
@@ -24,18 +24,18 @@
         top: 29px;
         margin-left: 0px;
 }
-.membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar {
+.membersWrap__90226 .members__9f47b .member_aa4760 {
         background-color: unset;
         margin-left: 0px;
         transition: margin-left var(--hover-animation-speed);
 }
-.membersWrap-3NUR2t:hover .members-3WRCEx .member-2gU6Ar {
+.membersWrap__90226:hover .members__9f47b .member_aa4760 {
         margin-left: 8px;
 }
-.membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
+.membersWrap__90226:hover .membersGroup__85843 {
         transform: translateX(-6px);
 }
-.membersWrap-3NUR2t .membersGroup-2eiWxl {
+.membersWrap__90226 .membersGroup__85843 {
         cursor: default;
         transform: translateX(45px);
         transition: transform var(--hover-animation-speed);
