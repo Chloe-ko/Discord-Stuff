@@ -1,9 +1,9 @@
 .membersWrap_cbd271, .container_f79ab4 {
-        min-width: unset;
+        min-width: unset !important;
         width: 50px;
         z-index: 1000;
         justify-content: right;
-        flex-basis: unset;
+        flex-basis: unset !important;
 }
 .membersWrap_cbd271 .members_cbd271 {
         transition: transform var(--hover-animation-speed);
