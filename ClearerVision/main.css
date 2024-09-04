@@ -1,0 +1,36 @@
+.peopleColumn_c2739c,
+.base_a4d4d9 .container_fc4f04,
+.privateChannels_f0963d,
+.sidebar_a4d4d9,
+.scroller_fea3ef,
+.theme-dark .scroller_fea3ef,
+.chatContent_a7d72e, .resizeHandle_d1c246,
+.channelTextArea_d0696b .scrollableContainer_d0696b,
+.channelTextArea_d0696b,
+.typeWindows_a934d8,
+.searchBar_f0963d .searchBarComponent_f0963d,
+.members_cbd271,
+.container_c64476 {
+	background: none !important;
+}
+.layer_d4b6c5 .wrapper_fea3ef,
+.button_df39bd,
+.searchBar_a46bef {
+	background-color: unset;
+}
+.searchBar_f0963d,
+.base_a4d4d9 .container_fc4f04,
+.wrapper_fea3ef,
+.typeWindows_a934d8,
+.searchBar_a46bef,
+.header_fd6364 {
+	box-shadow: unset;
+}
+
+.typeWindows_a934d8>.wordmark_a934d8::before {
+	content: "" !important;
+}
+
+.interactive_c91bad .linkButtonIcon_c91bad, .interactive_c91bad .name_ec8679 {
+	color: var(--channel-color);
+}
